@@ -3,48 +3,58 @@
     background-image:url(../images/palms.jpg);
     height: 324px;
     background-size: cover;
-    /* z-index: 1;
-    position: relative; */
+   
 }
 .title-div{
     display: flex;
-    max-width: 1088px;
-    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto; 
+    width: 100%; 
     justify-content: space-between;
-    justify-items: baseline;
-    /* z-index: 54; */
-    background: red;
-    /* position: absolute; */
+    justify-items: baseline;       
     
 }
 .left-title{
     display: flex;  
-    color: #fff;
-    /* z-index: 54; */
-    /* position: absolute; */
+    font-size: 14px;
+   
 }
 .right-title{
     display: flex;
     flex-direction: row;
-    /* z-index: 54;
-    position: absolute; */
+    justify-content: space-between;
+    font-size: 12px;
+    
+   
 }
 .ul-class{
     display: flex;
-    justify-content: space-between;
-    /* position: absolute; */
-}
-.navigation-class{
-    justify-content: space-between;
-    /* position: absolute; */
+   
 }
 .title-width{
     display: flex;
-    margin-left: 139px;
+    /* margin-left: 139px;  */
     padding-top: 30px;
-    /* position: absolute; */
+    
 }
-.li-class{
+ .li-class{ 
     display: flex;
-    margin-left: 13px;
+    margin-left: 85px;
+}
+.a-class{
+    color: #fff;
+}
+.header-icon{
+    padding-left:5px ;
+    padding-bottom: 6px ;
+}
+.active{
+    color: #5863F8;
+}
+.title-discription{
+    flex-wrap: wrap;
+    width: 173px;
+    display: flex;   
+    color: red;
+    
 }
