@@ -7,11 +7,13 @@
 }
 .title-div{
     display: flex;
-    max-width: 1400px;
-    margin: 0 auto; 
-    width: 100%; 
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;   
     justify-content: space-between;
-    justify-items: baseline;       
+    justify-items: baseline;
+    padding-top: 30px;
+    /* flex-direction: column;        */
     
 }
 .left-title{
@@ -32,9 +34,9 @@
    
 }
 .title-width{
-    display: flex;
-    /* margin-left: 139px;  */
-    padding-top: 30px;
+    /* display: flex; */
+    
+   
     
 }
  .li-class{ 
@@ -52,9 +54,12 @@
     color: #5863F8;
 }
 .title-discription{
-    flex-wrap: wrap;
-    width: 173px;
-    display: flex;   
-    color: red;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    /* margin-top: 40px; */
+    font-size:14px ;   
+    color: #fff;
+   
     
 }
