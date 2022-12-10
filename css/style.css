@@ -1,0 +1,50 @@
+/* header */
+.background-image{
+    background-image:url(../images/palms.jpg);
+    height: 324px;
+    background-size: cover;
+    /* z-index: 1;
+    position: relative; */
+}
+.title-div{
+    display: flex;
+    max-width: 1088px;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: baseline;
+    /* z-index: 54; */
+    background: red;
+    /* position: absolute; */
+    
+}
+.left-title{
+    display: flex;  
+    color: #fff;
+    /* z-index: 54; */
+    /* position: absolute; */
+}
+.right-title{
+    display: flex;
+    flex-direction: row;
+    /* z-index: 54;
+    position: absolute; */
+}
+.ul-class{
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+}
+.navigation-class{
+    justify-content: space-between;
+    /* position: absolute; */
+}
+.title-width{
+    display: flex;
+    margin-left: 139px;
+    padding-top: 30px;
+    /* position: absolute; */
+}
+.li-class{
+    display: flex;
+    margin-left: 13px;
+}
