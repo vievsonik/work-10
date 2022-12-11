@@ -1,9 +1,11 @@
 /* header */
 .background-image{
     background-image:url(../images/palms.jpg);
-    height: 540px; 
-    background-size:contain;
-    background-repeat: no-repeat;  
+    height: 324px; 
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-bottom: 90px; 
+     
 }
 .title-div{
     display: flex;
@@ -134,6 +136,7 @@
     width:536px;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 90px;
         
 }
 .stears-size{
@@ -148,3 +151,77 @@
 .image-opacity:hover{
     opacity: 0.7;
 }
+/* second-section */
+.background-image2{
+    background-image:url(../images/Group\ 13.png) ;
+    height: 600px;
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+.second-section-div{
+     display: flex;
+     max-width: 1088px;
+     width: 100%;
+     margin: 0 auto;
+}
+.second-section-aboutus{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 92px;
+}
+.second-section-title:nth-child(1){
+    color:#5863F8;
+    font-size: 14px;
+}
+.second-section-title:nth-child(2){
+   font-size: 42px;
+   margin-top: 13px;
+   
+}
+.second-section-title:nth-child(3){
+    font-size: 42px;
+ }
+.left-block-div{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    /* align-content: space-between;  */
+    flex-direction: column; 
+    width: 260px;
+    height: 260px;
+    background-color: #fff;
+    margin-top: 38px;
+}
+.div-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width:59px ;
+    height:58px ;
+    background-color: #5863F8;
+    border-radius: 100px ;
+}
+.hotel-icon{
+    width: 32.73px;
+    height: 32.73px;
+   
+}
+.block-class:nth-child(1){
+    color:black;
+    font-size: 18px;
+    text-align: center;
+}
+.block-class:nth-child(2){
+    color:black;
+    font-size: 18px;
+    text-align: center;
+}
+.block-class:nth-child(3){
+    color: black;
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 24px;
+}
+
