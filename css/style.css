@@ -140,4 +140,11 @@
     width:260px;
     height:185px;
     margin-bottom: 16px;
+
+}
+.stears-size:hover{
+    opacity: 0.7;
+}
+.image-opacity:hover{
+    opacity: 0.7;
 }
