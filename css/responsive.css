@@ -1,0 +1,53 @@
+@media (max-width:1060px) {
+    .background-image2{
+        height: 900px;
+    } 
+    .second-section-aboutus{
+        width: 70%; 
+        margin: 0 auto;
+        margin-top: 40px;
+        padding-bottom: 14px; 
+        
+    }
+    .left-block-div{
+        margin-bottom: 20px;
+           
+    }
+    .left-block-div:hover{
+        width: 280px;
+        height: 280px;  
+    }
+    .left-title{
+        margin-left: 14px;
+    }
+    .title-div{
+         padding-left: 14px; 
+    }
+    .left-div-block{
+        margin-left: 14px;
+    }
+    .title-display-block{
+        margin-left: 14px;
+    }
+    .right-title{
+        display: none;
+    }
+    .fa-bars-progress{
+        color: #fff;
+        font-size: 28px;
+        display:block ;
+        margin-right: 28px;
+    }
+}
+@media (max-width:1024px){
+    .right-title{
+        display: none;
+    }
+    .left-title{
+        margin-left: 14px;
+    }
+    .title-div{
+         padding-left: 14px;
+    }
+    
+}

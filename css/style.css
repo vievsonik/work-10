@@ -4,7 +4,8 @@
     height: 324px; 
     background-size:cover;
     background-repeat: no-repeat;
-    margin-bottom: 90px; 
+    margin-bottom: 90px;
+    /* background-attachment: fixed;  */
      
 }
 .title-div{
@@ -41,6 +42,12 @@
     padding-left:5px ;
     padding-bottom: 6px ;
 }
+.fa-bars-progress{
+    color: #fff;
+    /* font-size: 45px; */
+    display: none ; 
+}
+
 .active{
     color: #5863F8;
 }
@@ -156,7 +163,8 @@
     background-image:url(../images/Group\ 13.png) ;
     height: 600px;
     background-size:cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 .second-section-div{
      max-width: 1088px;
@@ -193,8 +201,8 @@
     height: 260px;
     background-color: #fff;
     border-radius: 14px;
-    transition: 0.8s 0.3s;
-    box-shadow: 5px 10px 25px  black;
+    transition: 0.5s 0.3s ;
+    box-shadow: 5px 10px 29px  black;
 }
 .left-block-div:hover{
      width: 300px;
